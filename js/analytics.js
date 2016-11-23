@@ -4,7 +4,8 @@
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-86538602-1', 'auto');
+//ga('create', 'UA-86538602-1', 'auto'); //standard initialization 
+ga('create', 'UA-86538602-1', {'storage': 'none'}); //initialization with cookies disabled
 ga('set', 'anonymizeIp', true); //anonymize sender IP
 ga('send', 'pageview');
 
